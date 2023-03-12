@@ -8,3 +8,8 @@ inputs:
     description: 'The day of the week to block deployment on, in Unix calendar.'
     required: false
     default: '5'
+runs:
+  using: "composite"
+  steps:
+    - run: bash ${{ github.action_path }}/dont-deploy-on-fridays.sh
+      shell: bash
