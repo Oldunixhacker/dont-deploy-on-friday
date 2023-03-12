@@ -1,5 +1,5 @@
 name: "Don't Deploy on Friday!"
-description: "Blocks your GitHub deployment from running on Fridays"
+description: "Blocks your GitHub deployment from running on Fridays (or any day you like)"
 branding:
   icon: calendar
   color: red
