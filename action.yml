@@ -1,0 +1,10 @@
+name: "Don't Deploy on Friday!"
+description: "Blocks your GitHub deployment from running on Fridays"
+branding:
+  icon: calendar
+  color: red
+inputs:
+  day:
+    description: 'The day of the week to block deployment on, in Unix calendar.'
+    required: false
+    default: '5'
