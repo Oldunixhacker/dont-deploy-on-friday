@@ -5,7 +5,7 @@ branding:
   color: red
 inputs:
   day:
-    description: 'The day of the week to block deployment on, in Unix calendar.'
+    description: 'The day of the week to block deployment on. (Number)'
     required: false
     default: '5'
 runs:
